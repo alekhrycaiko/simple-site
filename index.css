@@ -1,0 +1,23 @@
+.container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+img.alek-img {
+	width:100%;
+	max-width:600px;
+	border-radius: 100px;
+}
+img {
+	filter: grayscale(1);
+}
+a > img:hover {
+	filter: grayscale(0);
+}
+.details {
+	margin-top:10px;
+}
+.details > a {
+		padding: 10px;
+}
